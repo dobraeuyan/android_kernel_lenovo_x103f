@@ -642,8 +642,4 @@ source "drivers/misc/altera-stapl/Kconfig"
 source "drivers/misc/mei/Kconfig"
 source "drivers/misc/vmw_vmci/Kconfig"
 source "drivers/misc/qcom/Kconfig"
-#added by zhaochengliang for child mode A6505M-601 20160812 begin
-#added by WantJoin co. ltd
-source "drivers/misc/wantjoin/Kconfig"
-#added by zhaochengliang for child mode A6505M-601 20160812 end
 endmenu
