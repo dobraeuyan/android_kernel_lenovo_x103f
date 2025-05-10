@@ -5201,7 +5201,7 @@ static int iris_fops_release(struct file *file)
 END:
 	mutex_lock(&fm_smd_enable);
 	if (radio->fm_hdev != NULL)
-		radio->fm_hdev->close_smd();
+		//radio->fm_hdev->close_smd();
 	mutex_unlock(&fm_smd_enable);
 
 	if (retval < 0)
