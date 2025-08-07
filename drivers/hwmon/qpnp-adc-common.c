@@ -292,9 +292,8 @@ static const struct qpnp_vadc_map_pt adcmap_qrd_skug_btm_threshold[] = {
 	{800,	582},
 };
 
-/*xiongzuan modify for temp-table by 20150518 begin*/
 static const struct qpnp_vadc_map_pt adcmap_qrd_skuh_btm_threshold[] = {
-    {-400,	1753},
+	{-400,	1753},
 	{-380,	1747},
 	{-360,	1739},
 	{-340,	1731},
@@ -362,7 +361,7 @@ static const struct qpnp_vadc_map_pt adcmap_qrd_skuh_btm_threshold[] = {
 };
 
 static const struct qpnp_vadc_map_pt adcmap_qrd_skuc_btm_threshold[] = {
-    {-400,	1753},
+	{-400,	1753},
 	{-380,	1747},
 	{-360,	1739},
 	{-340,	1731},
@@ -428,7 +427,6 @@ static const struct qpnp_vadc_map_pt adcmap_qrd_skuc_btm_threshold[] = {
 	{860,	170},
 	{880,	165},
 };
-/*xiongzuan modify for temp-table by 20150518 end*/
 
 static const struct qpnp_vadc_map_pt adcmap_qrd_skue_btm_threshold[] = {
 	{-200,	1385},
@@ -575,7 +573,7 @@ static const struct qpnp_vadc_map_pt adcmap_100k_104ef_104fb[] = {
 	{51,	120},
 	{44,	125}*/
 };
-/*xiongzuan modify for temp-table by 20150430 end*/
+
 /* Voltage to temperature */
 static const struct qpnp_vadc_map_pt adcmap_150k_104ef_104fb[] = {
 	{1738,	-40},

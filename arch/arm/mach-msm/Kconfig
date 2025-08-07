@@ -417,6 +417,16 @@ config MSM_REMOTE_SPINLOCK_LDREX
 config MSM_REMOTE_SPINLOCK_SFPB
 	bool
 
+menu "MSM Board Selection"
+
+config PRODUCT_AR650X
+  depends on ARCH_MSM8909
+  bool "MSM8909 AR650X"
+  help
+    Support for Lenovo Tab 10
+
+endmenu
+
 config MSM_STACKED_MEMORY
 	bool "Stacked Memory"
 	default y
@@ -1057,7 +1067,4 @@ config HAS_MACH_MEMUTILS
 	help
 	Faster memcpy performance for Krait
 
-#added by litao begin
-source "arch/arm/mach-msm/product_list/Kconfig"
-#added by litao end
 endif

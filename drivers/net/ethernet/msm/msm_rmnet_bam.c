@@ -788,7 +788,6 @@ static int bam_rmnet_probe(struct platform_device *pdev)
 {
 	int i, ret;
 	struct rmnet_private *p;
-	struct device *d;
 	char name[BAM_DMUX_CH_NAME_MAX_LEN];
 	struct net_device *dev;
 	const char *dev_name;
@@ -817,7 +816,6 @@ static int bam_rmnet_probe(struct platform_device *pdev)
 	}
 
 	netdevs[i] = dev;
-	d = &(dev->dev);
 	p = netdev_priv(dev);
 	/* Initial config uses Ethernet */
 	p->operation_mode = RMNET_MODE_LLP_ETH;
